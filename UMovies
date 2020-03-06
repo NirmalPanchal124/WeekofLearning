@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMovies</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <h2 class="logo">UMovies</h2>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+    
+          <a href="#">Sign in</a>
+          <a href="login-reg.html" class="login">Log in</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+               <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
+              <li data-target="#demo" data-slide-to="5"></li> 
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active" > 
+                <img src="C:\Users\panch\Desktop\week\batman.jpg" alt="John 3 Wick" width="100%" height="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\panch\Desktop\week\unnamed.jpg" alt="Marvel" width="100%" height="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\panch\Desktop\week\spider-man-into-the-spider-verse-movie-hd-still-poster.jpg" alt="Marvel" width="100%" height="100%">
+              </div>
+              
+               <div class="carousel-item">
+                <img src="C:\Users\panch\Desktop\week\Jumanji-Welcome-to-the-Jungle-wide.jpg" alt="Star Wars" width="100%" height="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\panch\Desktop\week\black-panther-2018-movie-poster-sr-1920x1080.jpg" alt="1917" width="100%" height="100%">
+              </div>
+              <!-- <div class="carousel-item">
+                <img src="bharat" alt="Bharat" width="1100" height="500">
+              </div> --> -->
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    <!-- <iframe width="60" height="95" src="https://www.youtube.com/embed/7NGzomDuxGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Trailers</h2>
+        </div>
+
+<!-- for movies -->
+
+          <div class="video-row row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="video-card">
+                                <iframe width="250" height="315" src="https://www.youtube.com/embed/RxAtuMu_ph4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            <div class="row details no-margin">
+                                <h6>Black Widow</h6>
+                                <div class="col-md-6 col-6 no-padding left">
+                                    <!-- <i class="far fa-eye"></i> -->
+                                    <!-- <span>3,241,234</span> -->
+                                </div>
+                                <div class="col-md-6 col-6 no-padding right">
+
+                                    <!-- <i class="far fa-comments"></i> -->
+                                    <!-- <span>3,241,234</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="video-card">
+                                <iframe width="250" height="315" src="https://www.youtube.com/embed/8Qn_spdM5Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                            <div class="row details no-margin">
+                                <h6>Star Wars</h6>
+                                <div class="col-md-6 col-6 no-padding left">
+                                    <!-- <i class="far fa-eye"></i> -->
+                                    <!-- <span>3,241,234</span> -->
+                                </div>
+                                <div class="col-md-6 col-6 no-padding right">
+
+                                    <!-- <i class="far fa-comments"></i> -->
+                                    <!-- <span>3,241,234</span> -->
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="video-card">
+                                <iframe width="250" height="315" src="https://www.youtube.com/embed/u5r77-OQwa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            
+
+                            <div class="row details no-margin">
+                                <h6>Suryavanshi</h6>
+                                <div class="col-md-6 col-6 no-padding left">
+                                    <!-- <i class="far fa-eye"></i> -->
+                                    <!-- <span>3,241,234</span> -->
+                                </div>
+                                <div class="col-md-6 col-6 no-padding right">
+
+                                    <!-- <i class="far fa-comments"></i> -->
+                                    <!-- <span>3,241,234</span> -->
+                                </div>
+                            </div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                           
+                        </a><div class="video-card">
+                          <iframe width="250" height="315" src="https://www.youtube.com/embed/jQzDujMzfoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            <img src="./b4.jpg" alt="">
+
+                            <div class="row details no-margin">
+                                <h6>&nbsp;&nbsp;&nbsp;&nbsp;Baaghi 3</h6>
+                                <div class="col-md-6 col-6 no-padding left">
+                                    <!-- <i class="far fa-eye"></i> -->
+                                    <!-- <span>3,241,234</span> -->
+                                </div>
+                                <div class="col-md-6 col-6 no-padding right">
+
+                                    <!-- <i class="far fa-comments"></i> -->
+                                    <!-- <span>3,241,234</span> -->
+                                </div>
+                            </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ----------------------- -->
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Ready to become an awesome programmer?</h2>
+          <h3>Let's learn to code, learn to be creative!</h3>
+        </div>
+        <span class="btn message">Start Learning</span>
+      </div>
+    </div> -->
+    <footer>
+      <footer>
+      <div class="container">
+        <h2>UMovies</h2>
+        <p><b>Latest movies and trailers.</b></p>
+      </div>
+    </footer>
+         
+      </div>
+    </footer>
+  </body>
+</html>
